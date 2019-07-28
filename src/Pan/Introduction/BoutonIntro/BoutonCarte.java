@@ -1,7 +1,6 @@
 package Pan.Introduction.BoutonIntro;
 
 import Pan.Introduction.CombatIntro;
-import Pan.PanelInterface;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

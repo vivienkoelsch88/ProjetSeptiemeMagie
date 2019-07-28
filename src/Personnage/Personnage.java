@@ -15,6 +15,7 @@ public class Personnage {
 
     private int attaque;
     private int defense;
+    private int portee;
 
     private String gif;
     private String[] icon;
@@ -31,6 +32,7 @@ public class Personnage {
         this.charisme = 50;
         this.attaque = 20;
         this.defense = 10;
+        this.portee = 4;
 
         this.icon = new String[]{"/Images/iconPersonnage.jpg"};
         this.gif = "/Images/PersonnageIcon.gif";
@@ -120,5 +122,13 @@ public class Personnage {
 
     public void setGif(String gif) {
         this.gif = gif;
+    }
+
+    public int getPortee() {
+        return portee;
+    }
+
+    public void setPortee(int portee) {
+        this.portee = portee;
     }
 }

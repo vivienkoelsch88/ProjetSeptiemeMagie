@@ -23,8 +23,13 @@ public class CombatIntro extends JPanel implements PanelInterface, KeyListener, 
     private String[] explicationsTuto = {""};
     private boolean afficherCarte = false;
     private boolean afficherMain = false;
-    private int placementFleche = 0;
+    private int[] placementFleche = {0,0};
     private int fleche = 0;
+    private JButton defendre = new JButton("3");
+    private JButton plusInvest = new JButton("+");
+    private JButton moinsInvest = new JButton("-");
+    private JButton boutonInvest = new JButton("0");
+    private int[] actionsCarte = {0, 0, 0};
 
 
     private Timer timer = new Timer(50, new ActionListener() {
@@ -93,6 +98,7 @@ public class CombatIntro extends JPanel implements PanelInterface, KeyListener, 
         g.drawString("Charisme : " + this.personnage.getCharisme(), 15, 70);
         g.drawString("Force : " + this.personnage.getForce(), 15, 90);
         g.drawString("Attaque : " + this.personnage.getAttaque() + "  Défense : " + this.personnage.getDefense(), 15, 110);
+        g.drawString("Portée : " + this.personnage.getPortee(), 15, 130);
         g.drawString("Vie : " + this.personnage.getLife(), 15, 150);
 
 //        ************************************** Afficher carte **********************************************
@@ -106,15 +112,8 @@ public class CombatIntro extends JPanel implements PanelInterface, KeyListener, 
             }
         }
 
-        if(placementFleche == 1){
-            Image flecheDroite = new javax.swing.ImageIcon(getClass().getResource("/Images/flecheVersDroite.png")).getImage();
-            g.drawImage(carte, 255, 20, this.getWidth()/2, this.getHeight() - 50, this);
-        }
-
 //        ********************************* Afficher la carte choisie par le joueur ***************************
         if(afficherCarte){
-//            g.setColor((Color.GRAY));
-//            g.fillRoundRect(255 , 20, this.getWidth()/2, this.getHeight() - 50, 5, 5);
             Image carte = new javax.swing.ImageIcon(getClass().getResource("/Cartes/ImageCartes/Cartedebase.png")).getImage();
             g.drawImage(carte, 255, 20, this.getWidth()/2, this.getHeight() - 50, this);
         }
@@ -132,6 +131,14 @@ public class CombatIntro extends JPanel implements PanelInterface, KeyListener, 
             }
         }
 
+        if(fleche == 1){
+            Image flecheDroite = new javax.swing.ImageIcon(getClass().getResource("/Images/flecheVersDroite.png")).getImage();
+            g.drawImage(flecheDroite, placementFleche[0], placementFleche[1], 120, 50, this);
+        }
+        if(fleche == 2){
+            Image flecheGauche = new javax.swing.ImageIcon(getClass().getResource("/Images/flecheVersGauche.png")).getImage();
+            g.drawImage(flecheGauche, placementFleche[0], placementFleche[1], 120, 50, this);
+        }
     }
 //    ******************************** Appel *******************************
 
@@ -176,7 +183,7 @@ public class CombatIntro extends JPanel implements PanelInterface, KeyListener, 
 
             case 5 :
                 placementTuto = new int[]{270, 85};
-                explicationsTuto = new String[]{"L'attaque et la défense", "Vis statistiques de combat principales", "elles influent sur les dommages que vous infligez ", "et sur ceux que vous recevez"};
+                explicationsTuto = new String[]{"L'attaque, la défense et la portée", "Vos statistiques de combat principales", "elles influent sur les dommages que vous infligez ", "sur ceux que vous recevez et bien sûr", "sur la portée de vos attaques"};
                 compteur++;
                 break;
 
@@ -202,9 +209,78 @@ public class CombatIntro extends JPanel implements PanelInterface, KeyListener, 
                 break;
 
             case 10 :
-                placementFleche = 1;
+                fleche = 1;
+                placementFleche = new int[]{230, 80};
+                placementTuto = new int[]{200, 200};
+                explicationsTuto = new String[]{" ", "Alors, ici, simplement le nom de la carte", ""};
+                compteur++;
                 break;
 
+            case 11 :
+                placementFleche = new int[]{160, 320};
+                explicationsTuto = new String[]{" ", "Ici, on trouve l'attribut lié à la care", "Ainsi que son type d'action", ""};
+                compteur++;
+                break;
+
+            case 12 :
+                fleche = 2;
+                placementFleche = new int[]{720, 60};
+                explicationsTuto = new String[]{" ", "Un symbole pour repérer plus son type d'action", "Ici le symbole d'une attaque", ""};
+                compteur++;
+                break;
+
+            case 13 :
+                fleche = 1;
+                placementFleche = new int[]{160, 355};
+                explicationsTuto = new String[]{" ", "Maintenant son effet,", "On sait que c'est une attaque,", "Ici on indique de combien l'investissement augmente l'attaque", ""};
+                compteur++;
+                break;
+
+            case 14 :
+                fleche = 1;
+                placementFleche = new int[]{160, 425};
+                explicationsTuto = new String[]{" ", "Le vol de l'ange possède aussi 2 effets supplémentaires,", "Pour 5 points de force supplémentaires, elle permet d'avancer d'une case", "Et pour 3, d'augmenter sa défense de 5", ""};
+                compteur++;
+                break;
+
+            case 15 :
+                explicationsTuto = new String[]{" ", "Attention", "Activer ces effets compte dans l'investissement total de la carte", ""};
+                compteur++;
+                break;
+
+            case 16 :
+                placementFleche = new int[]{155, 548};
+                explicationsTuto = new String[]{" ", "Ici le niveau de la carte","Au maximum, vous ne pouvez investir que jusqu'à 10 fois", "le niveau d'une carte, effets supplémentaires compris", ""};
+                compteur++;
+                break;
+
+            case 17 :
+                fleche = 2;
+                placementFleche = new int[]{720, 548};
+                explicationsTuto = new String[]{" ", "Et enfin, on trouve ici son côut", "Vous ne pouvez jouer par tour qu'un nombre de carte"
+                        ,"dont le coût total ne dépasse pas votre adresse /10", ""};
+                compteur++;
+                break;
+
+            case 18 :
+                fleche = 0;
+                message = "";
+                defendre.addActionListener(this);
+                plusInvest.addActionListener(this);
+                moinsInvest.addActionListener(this);
+                boutonInvest.addActionListener(this);
+                defendre.setBounds(280, 500 , 65, 35);
+                this.add(defendre);
+                explicationsTuto = new String[]{" ", "Bien, essayons d'utiliser cette carte,", "Votre portée est de 4, pas besoin d'avancer",
+                        "Par contre se défendre est important, cochez donc la case ","du 2ème effet...", ""};
+                compteur++;
+                break;
+
+            case 20 :
+                explicationsTuto[0] = "";
+                afficherCarte = false;
+                message = "Test";
+                break;
         }
     }
 
@@ -216,11 +292,51 @@ public class CombatIntro extends JPanel implements PanelInterface, KeyListener, 
         compteur++;
     }
 
-//    **************************************************************************************
-    @Override
     public void actionPerformed(ActionEvent e) {
+        Object source = e.getSource();
+        System.out.println(actionsCarte[0]);
+        if(source == defendre && defendre.getText().equals("3")){
+            this.removeAll();
+            defendre.setText("Actif");
+            actionsCarte[2] = 3;
+            explicationsTuto = new String[]{" ", "Maintenant votre carte augmentera votre défense de 5",
+                    "C'est une carte niveau 3, vous pouvez donc investir 30 points",
+                    "moins 3 pour l'effet supplémentaire, il reste 27 points",
+                    "Sélectionnez maintenant un investissement pour l'attaque",
+                    "27 par exemple"};
+            placementBoutons();
 
+        } else if(source == plusInvest && actionsCarte[0] < 27){
+            this.removeAll();
+            actionsCarte[0]++;
+            placementBoutons();
+
+        }else if(source == moinsInvest && actionsCarte[0] > 0) {
+            this.removeAll();
+            actionsCarte[0]--;
+            placementBoutons();
+        } else if(source == boutonInvest && actionsCarte[0] == 27) {
+            this.removeAll();
+            explicationsTuto = new String[]{" ", "Parfait, ",
+                    "Maintenant lançons l'attaque!"};
+            compteur++;
+        }
     }
+
+    private void placementBoutons(){
+        boutonInvest.setText("" + actionsCarte[0]);
+        defendre.setBounds(280, 500 , 65, 35);
+        plusInvest.setBounds(370, 550 , 45, 35);
+        moinsInvest.setBounds(550, 550 , 45, 35);
+        boutonInvest.setBounds(445, 550 , 75, 35);
+
+        this.add(plusInvest);
+        this.add(moinsInvest);
+        this.add(boutonInvest);
+        this.add(defendre);
+    }
+
+//    **************************************************************************************
 
     @Override
     public void keyTyped(KeyEvent e) {
