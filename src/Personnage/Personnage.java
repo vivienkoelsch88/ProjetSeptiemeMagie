@@ -49,6 +49,48 @@ public class Personnage {
         return this.icon[vue];
     }
 
+    public int prendreDommage(int puissance){
+        puissance = puissance - defense;
+        if(puissance < 0){
+            puissance = 0;
+        }
+        this.life = this.life - puissance;
+
+        return puissance;
+    }
+
+//    ************************************* changer les stats ********************************
+    public void modifLife(int nbr){
+        this.life = this.life + nbr;
+    }
+
+    public void modifconcentration(int nbr){
+        this.concentration = this.concentration + nbr;
+    }
+
+    public void modifForce(int nbr){
+        this.force = this.force + nbr;
+    }
+
+    public void modifAdresse(int nbr){
+        this.adresse = this.adresse + nbr;
+    }
+
+    public void modifCharisme(int nbr){
+        this.charisme = this.charisme + nbr;
+    }
+
+    public void modifAttaque(int nbr){
+        this.attaque = this.attaque + nbr;
+    }
+
+    public void modifDefense(int nbr){
+        this.defense = this.defense + nbr;
+    }
+
+    public void modifportee(int nbr){
+        this.portee = this.portee + nbr;
+    }
 
 //    ********************************** getter and setter ********************************
 

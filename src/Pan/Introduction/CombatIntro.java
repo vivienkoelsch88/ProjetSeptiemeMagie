@@ -1,6 +1,8 @@
 package Pan.Introduction;
 
+import Cartes.Force.VolDeLange;
 import Monstres.Monstres;
+import Pan.Combat;
 import Pan.Fenetre;
 import Pan.Introduction.BoutonIntro.BoutonCarte;
 import Pan.PanelInterface;
@@ -10,7 +12,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class CombatIntro extends JPanel implements PanelInterface, KeyListener, ActionListener, MouseListener {
+public class CombatIntro extends JPanel implements PanelInterface, KeyListener, ActionListener, MouseListener, Combat {
     private Fenetre fen;
     private Personnage personnage;
     private String fondEcran;
@@ -30,11 +32,20 @@ public class CombatIntro extends JPanel implements PanelInterface, KeyListener, 
     private JButton moinsInvest = new JButton("-");
     private JButton boutonInvest = new JButton("0");
     private int[] actionsCarte = {0, 0, 0};
+    private int personnageDefense = 0;
+    private int[] placementDommages = {0, 0};
+    private int dommages = 0;
 
 
     private Timer timer = new Timer(50, new ActionListener() {
         @Override
         public void actionPerformed(ActionEvent e) {
+            placementDommages[1]--;
+            if(placementDommages[1] == -40){
+                dommages = 0;
+                timer.stop();
+            }
+            repaint();
         }
     });
 
@@ -87,6 +98,17 @@ public class CombatIntro extends JPanel implements PanelInterface, KeyListener, 
         Image img3 = new javax.swing.ImageIcon(getClass().getResource(personnage.getGif())).getImage();
         g.drawImage(img3, uniteX * placementJoueur, 210, uniteX, 120, this);
 
+//        **************************** Dommages ****************************************
+        g.setColor((Color.RED));
+        font = new Font("desc", Font.BOLD, 35);
+        g.setFont(font);
+        if(dommages > 0) {
+            g.drawString("" + dommages, placementDommages[0] * uniteX + (uniteX/3), placementDommages[1] + 200);
+        }
+        g.setColor((Color.WHITE));
+        font = new Font("desc", Font.BOLD, 25);
+        g.setFont(font);
+
 //        ******************************** fenetre du joueur ******************************************************
         g.setColor((Color.GRAY));
         g.fillRoundRect(5, 5, this.getWidth() / 4, this.getHeight() / 4, 5, 5);
@@ -97,7 +119,7 @@ public class CombatIntro extends JPanel implements PanelInterface, KeyListener, 
         g.drawString("Adresse : " + this.personnage.getAdresse(), 15, 50);
         g.drawString("Charisme : " + this.personnage.getCharisme(), 15, 70);
         g.drawString("Force : " + this.personnage.getForce(), 15, 90);
-        g.drawString("Attaque : " + this.personnage.getAttaque() + "  Défense : " + this.personnage.getDefense(), 15, 110);
+        g.drawString("Attaque : " + this.personnage.getAttaque() + "  Défense : " + (this.personnage.getDefense() + this.personnageDefense), 15, 110);
         g.drawString("Portée : " + this.personnage.getPortee(), 15, 130);
         g.drawString("Vie : " + this.personnage.getLife(), 15, 150);
 
@@ -146,6 +168,45 @@ public class CombatIntro extends JPanel implements PanelInterface, KeyListener, 
     @Override
     public void appel() {
 
+    }
+
+//    ********************************** méthodes de combat **************************************
+    public void attaquer(int puissance){
+        this.dommages = this.monstre.prendreDommage(puissance);
+        this.placementDommages = new int[]{this.placementMonstre, 0};
+        timer.start();
+    }
+
+    public void defendre(int puissance){
+        this.personnageDefense = this.personnageDefense + puissance;
+    }
+
+    public void avancer(int nbrCase){
+        this.placementJoueur++;
+        if(placementJoueur >= placementMonstre){
+            placementJoueur = placementMonstre - 1;
+        }
+    }
+//     ************ Pour le monstre **************
+    public void MAttaquer(int puissance){
+        puissance = puissance - personnageDefense;
+        if(puissance < 0){
+            puissance = 0;
+        }
+        this.dommages = this.personnage.prendreDommage(puissance);
+        this.placementDommages = new int[]{this.placementJoueur, 0};
+        timer.start();
+    }
+
+    public void MDefendre(int puissance){
+        this.personnageDefense = this.personnageDefense + puissance;
+    }
+
+    public void MAvancer(int nbrCase){
+        this.placementJoueur++;
+        if(placementJoueur >= placementMonstre){
+            placementJoueur = placementMonstre - 1;
+        }
     }
 
 //    ************************************* OnClick ***********************************
@@ -279,7 +340,21 @@ public class CombatIntro extends JPanel implements PanelInterface, KeyListener, 
             case 20 :
                 explicationsTuto[0] = "";
                 afficherCarte = false;
-                message = "Test";
+//                *************************
+                VolDeLange volDeLange = new VolDeLange();
+                volDeLange.utilisation(false, true, 27, this);
+//                **************************
+                message = "Vie du monstre " + this.monstre.getLife();
+                compteur++;
+                break;
+
+            case 21 :
+                message = "Au tour du monstre...";
+                compteur++;
+                break;
+
+            case 22 :
+                this.monstre.patern(this);
                 break;
         }
     }
@@ -310,6 +385,13 @@ public class CombatIntro extends JPanel implements PanelInterface, KeyListener, 
             this.removeAll();
             actionsCarte[0]++;
             placementBoutons();
+            if(actionsCarte[0] == 27){
+                explicationsTuto = new String[]{" ", "Click ici! ", ""};
+                fleche = 2;
+                placementFleche = new int[]{525, 540};
+                this.remove(plusInvest);
+                this.remove(moinsInvest);
+            }
 
         }else if(source == moinsInvest && actionsCarte[0] > 0) {
             this.removeAll();
@@ -319,6 +401,7 @@ public class CombatIntro extends JPanel implements PanelInterface, KeyListener, 
             this.removeAll();
             explicationsTuto = new String[]{" ", "Parfait, ",
                     "Maintenant lançons l'attaque!"};
+            fleche = 0;
             compteur++;
         }
     }
@@ -371,5 +454,37 @@ public class CombatIntro extends JPanel implements PanelInterface, KeyListener, 
     @Override
     public void mouseExited(MouseEvent e) {
 
+    }
+
+    public String getFondEcran() {
+        return fondEcran;
+    }
+
+    public void setFondEcran(String fondEcran) {
+        this.fondEcran = fondEcran;
+    }
+
+    public Personnage getPersonnage() {
+        return personnage;
+    }
+
+    public void setPersonnage(Personnage personnage) {
+        this.personnage = personnage;
+    }
+
+    public Monstres getMonstre() {
+        return monstre;
+    }
+
+    public void setMonstre(Monstres monstre) {
+        this.monstre = monstre;
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
     }
 }
