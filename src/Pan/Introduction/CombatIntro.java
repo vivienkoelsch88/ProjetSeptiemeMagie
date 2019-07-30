@@ -5,6 +5,7 @@ import Monstres.Monstres;
 import Pan.Combat;
 import Pan.Fenetre;
 import Pan.Introduction.BoutonIntro.BoutonCarte;
+import Pan.PanDialogue;
 import Pan.PanelInterface;
 import Personnage.Personnage;
 
@@ -35,7 +36,8 @@ public class CombatIntro extends JPanel implements PanelInterface, KeyListener, 
     private int personnageDefense = 0;
     private int[] placementDommages = {0, 0};
     private int dommages = 0;
-
+    private int fonduNoir = 0;
+    private PanDialogue panDialogue = new PanDialogue("/Narration/IntroPersonnage/incendie.jpg", new String[]{"/Narration/IntroPersonnage/PersonnageDial.png", "/Narration/IntroPersonnage/ChevalierNoir.png"}, "src/Narration/IntroPersonnage/IntroApresCombat", this);
 
     private Timer timer = new Timer(50, new ActionListener() {
         @Override
@@ -46,6 +48,19 @@ public class CombatIntro extends JPanel implements PanelInterface, KeyListener, 
                 timer.stop();
             }
             repaint();
+        }
+    });
+
+    private Timer timerEnd = new Timer(50, new ActionListener() {
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            fonduNoir = fonduNoir + 5;
+            if(fonduNoir == 255){
+                timerEnd.stop();
+                fen.setContentPane(panDialogue);
+                fen.getContentPane().repaint();
+                fen.getContentPane().revalidate();
+            }
         }
     });
 
@@ -161,6 +176,10 @@ public class CombatIntro extends JPanel implements PanelInterface, KeyListener, 
             Image flecheGauche = new javax.swing.ImageIcon(getClass().getResource("/Images/flecheVersGauche.png")).getImage();
             g.drawImage(flecheGauche, placementFleche[0], placementFleche[1], 120, 50, this);
         }
+
+//        ************************************** Fondu en noir ****************************************
+        g.setColor(new Color(255,255,255, fonduNoir));
+        g.fillRoundRect(0, 0, this.getWidth(), this.getHeight(), 0, 0);
     }
 //    ******************************** Appel *******************************
 
@@ -355,6 +374,12 @@ public class CombatIntro extends JPanel implements PanelInterface, KeyListener, 
 
             case 22 :
                 this.monstre.patern(this);
+                compteur++;
+                break;
+
+            case 23 :
+                message = "C'était... une trés belle attaque...";
+                timerEnd.start();
                 break;
         }
     }
@@ -369,7 +394,6 @@ public class CombatIntro extends JPanel implements PanelInterface, KeyListener, 
 
     public void actionPerformed(ActionEvent e) {
         Object source = e.getSource();
-        System.out.println(actionsCarte[0]);
         if(source == defendre && defendre.getText().equals("3")){
             this.removeAll();
             defendre.setText("Actif");

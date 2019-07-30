@@ -27,17 +27,25 @@ public class Fenetre  extends JFrame{
 
 //    ************************************* Pour le developement ****************************************
     public void suite(){
+
+//        ******************** Debut ****************************************
 //        this.panel = new PresentationPersonnages(this);
 //        this.setContentPane(panel);
 //        panel.repaint();
 //        this.getContentPane().revalidate();
 
-//        ************************************************************************************************************
-        PresentationPersonnages presentationPersonnages = new PresentationPersonnages(this);
-        this.setContentPane(presentationPersonnages);
-        presentationPersonnages.repaint();
+//        ************************** Combat intro **********************************************************************************
+//        PresentationPersonnages presentationPersonnages = new PresentationPersonnages(this);
+//        this.setContentPane(presentationPersonnages);
+//        presentationPersonnages.repaint();
+//        this.getContentPane().revalidate();
+//        presentationPersonnages.appel();
+
+//        ************************************* Aventure ***************************************
+        this.panel = new Map(this);
+        setContentPane(panel);
+        panel.repaint();
         this.getContentPane().revalidate();
-        presentationPersonnages.appel();
     }
 
 //    ******************************************************************************************

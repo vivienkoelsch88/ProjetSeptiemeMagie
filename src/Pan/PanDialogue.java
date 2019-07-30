@@ -128,6 +128,11 @@ public class PanDialogue extends JPanel implements KeyListener, ActionListener, 
                     this.personnageParlant = !this.personnageParlant;
                     ligneDialogue++;
                 }
+                if (story[this.ligneDialogue].equals("@")) {
+                    ligneDialogue++;
+                    fondEcran = story[this.ligneDialogue];
+                    ligneDialogue++;
+                }
                 this.compteurDeChar = 0;
                 this.affichage = story[this.ligneDialogue];
                 this.affichageDial = true;

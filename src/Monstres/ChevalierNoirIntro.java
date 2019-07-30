@@ -13,7 +13,7 @@ public class ChevalierNoirIntro extends Monstres {
     public void patern(Combat combat) {
         switch (tourDeCombat){
             case 1 :
-                combat.MAttaquer(35);
+                combat.MAttaquer(150);
                 combat.setMessage("Le chevalier se jette sur vous");
                 break;
         }
