@@ -8,7 +8,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
-public class BoutonVille extends AbstractAction implements ActionListener, MouseListener {
+public class BoutonVille extends JButton implements ActionListener, MouseListener {
     private String name;
     private Map map;
     private int[] emplacement;
@@ -17,13 +17,12 @@ public class BoutonVille extends AbstractAction implements ActionListener, Mouse
         this.name = name;
         this.map = map;
         this.emplacement = emplacement;
+        this.addMouseListener(this);
     }
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        this.map.setDesc(name);
-        this.map.setEmplacementDesc(emplacement);
-        this.map.repaint();
+
     }
 
     @Override
@@ -42,7 +41,6 @@ public class BoutonVille extends AbstractAction implements ActionListener, Mouse
 
     @Override
     public void mouseEntered(MouseEvent e) {
-        System.out.println("test");
         this.map.setDesc(name);
         this.map.setEmplacementDesc(emplacement);
         this.map.repaint();
@@ -50,6 +48,7 @@ public class BoutonVille extends AbstractAction implements ActionListener, Mouse
 
     @Override
     public void mouseExited(MouseEvent e) {
-
+        this.map.setDesc("");
+        this.map.repaint();
     }
 }

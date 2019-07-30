@@ -12,7 +12,7 @@ import java.awt.event.MouseListener;
 public class Map extends JPanel implements MouseListener, ActionListener {
     private Fenetre fen;
     private String fondEcran;
-    private JButton villagePecheur = new JButton(new BoutonVille("Village de pêcheurs", this, new int[]{240, 500}));
+    private JButton villagePecheur = new BoutonVille("Village de pêcheurs", this, new int[]{240, 500});
     private String desc = "";
     private int[] emplacementDesc = {0, 0};
 
@@ -20,34 +20,8 @@ public class Map extends JPanel implements MouseListener, ActionListener {
     public Map(Fenetre fen) {
         this.fen = fen;
         this.fondEcran = "/Images/map.jpg";
-        villagePecheur.addMouseListener(new MouseListener() {
-            public void mouseClicked(MouseEvent e) {
-            }
-
-            @Override
-            public void mousePressed(MouseEvent e) {
-
-            }
-
-            @Override
-            public void mouseReleased(MouseEvent e) {
-
-            }
-
-            @Override
-            public void mouseEntered(MouseEvent e) {
-                desc = "Village de pêcheurs";
-                emplacementDesc = new int[]{240, 500};
-                repaint();
-            }
-
-            @Override
-            public void mouseExited(MouseEvent e) {
-                desc = "";
-                repaint();
-            }
-        });
         this.addMouseListener(this);
+        this.fen.setMap(this);
     }
 
 //    **************************************** Paint **********************************
@@ -92,10 +66,6 @@ public class Map extends JPanel implements MouseListener, ActionListener {
 
     @Override
     public void mouseEntered(MouseEvent e) {
-        Object source = e.getSource();
-        if(source == villagePecheur){
-            System.out.println("test");
-        }
     }
 
     @Override

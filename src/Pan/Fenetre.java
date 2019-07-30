@@ -1,11 +1,14 @@
 package Pan;
 
-import Pan.Introduction.PresentationPersonnages;
+import Pan.Lieux.Villes.VillagePecheur.VillagePecheursEntree;
 
 import javax.swing.*;
+import Personnage.Personnage;
+
 
 public class Fenetre  extends JFrame{
     private JPanel panel;
+    private Map map;
 
 //    ***************************** Constructeur *************************************************
     public Fenetre(){
@@ -42,7 +45,13 @@ public class Fenetre  extends JFrame{
 //        presentationPersonnages.appel();
 
 //        ************************************* Aventure ***************************************
-        this.panel = new Map(this);
+//        this.panel = new Map(this);
+//        setContentPane(panel);
+//        panel.repaint();
+//        this.getContentPane().revalidate();
+
+//        ****************************** Ville ***********************************
+        this.panel = new VillagePecheursEntree(this, new Personnage());
         setContentPane(panel);
         panel.repaint();
         this.getContentPane().revalidate();
@@ -57,5 +66,13 @@ public class Fenetre  extends JFrame{
 
     public void setPanel(JPanel panel) {
         this.panel = panel;
+    }
+
+    public Map getMap() {
+        return map;
+    }
+
+    public void setMap(Map map) {
+        this.map = map;
     }
 }

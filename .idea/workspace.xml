@@ -2,19 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be4d591d-19b3-4af9-a6d0-266afb1b5a79" name="Default Changelist" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Narration/IntroPersonnage/IntroApresCombat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Pan/Boutons/BoutonVille.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Pan/Map.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Pan/Lieux/Villes/VillagePecheur/VillagePecheurGrandePlace.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Pan/Lieux/Villes/VillagePecheur/VillagePecheurMagasin.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Pan/Lieux/Villes/VillagePecheur/VillagePecheurTaverne.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Pan/Lieux/Villes/VillagePecheur/VillagePecheursEntree.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Pan/Lieux/Villes/Villes.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Monstres/ChevalierNoirIntro.class" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Monstres/ChevalierNoirIntro.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Boutons/BoutonVille.class" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Boutons/BoutonVille.class" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Fenetre.class" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Fenetre.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Introduction/CombatIntro$1.class" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Introduction/CombatIntro$1.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Introduction/CombatIntro.class" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Introduction/CombatIntro.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/PanDialogue.class" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/PanDialogue.class" />
-      <change beforePath="$PROJECT_DIR$/src/Monstres/ChevalierNoirIntro.java" afterPath="$PROJECT_DIR$/src/Monstres/ChevalierNoirIntro.java" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Map$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Map.class" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Map.class" />
+      <change beforePath="$PROJECT_DIR$/src/Pan/Boutons/BoutonVille.java" afterPath="$PROJECT_DIR$/src/Pan/Boutons/BoutonVille.java" />
       <change beforePath="$PROJECT_DIR$/src/Pan/Fenetre.java" afterPath="$PROJECT_DIR$/src/Pan/Fenetre.java" />
-      <change beforePath="$PROJECT_DIR$/src/Pan/Introduction/CombatIntro.java" afterPath="$PROJECT_DIR$/src/Pan/Introduction/CombatIntro.java" />
-      <change beforePath="$PROJECT_DIR$/src/Pan/PanDialogue.java" afterPath="$PROJECT_DIR$/src/Pan/PanDialogue.java" />
+      <change beforePath="$PROJECT_DIR$/src/Pan/Map.java" afterPath="$PROJECT_DIR$/src/Pan/Map.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,9 +33,11 @@
       <file leaf-file-name="PanDialogue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Pan/PanDialogue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1339">
-              <caret line="134" column="17" lean-forward="true" selection-start-line="134" selection-start-column="17" selection-end-line="134" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="34">
+              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,18 +45,8 @@
       <file leaf-file-name="CombatIntro.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Pan/Introduction/CombatIntro.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="76" column="36" lean-forward="true" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BoutonCarte.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Pan/Introduction/BoutonIntro/BoutonCarte.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="95">
+              <caret line="404" column="38" lean-forward="true" selection-start-line="404" selection-start-column="38" selection-end-line="404" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -63,54 +55,113 @@
       <file leaf-file-name="Fenetre.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Pan/Fenetre.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="50" column="33" lean-forward="false" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+            <state relative-caret-position="368">
+              <caret line="53" column="62" lean-forward="false" selection-start-line="53" selection-start-column="62" selection-end-line="53" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1962#1963#0" expanded="true" />
-                <element signature="e#1990#1991#0" expanded="true" />
-                <element signature="e#2032#2033#0" expanded="true" />
-                <element signature="e#2066#2067#0" expanded="true" />
+                <element signature="e#2291#2292#0" expanded="true" />
+                <element signature="e#2319#2320#0" expanded="true" />
+                <element signature="e#2361#2362#0" expanded="true" />
+                <element signature="e#2395#2396#0" expanded="true" />
+                <element signature="e#2422#2423#0" expanded="true" />
+                <element signature="e#2448#2449#0" expanded="true" />
+                <element signature="e#2483#2484#0" expanded="true" />
+                <element signature="e#2513#2514#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Map.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Pan/Map.java">
+      <file leaf-file-name="Villes.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Pan/Lieux/Villes/Villes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="674">
+              <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="class#781:1419" expanded="false" />
-                <element signature="e#2883#2884#0" expanded="true" />
-                <element signature="e#2915#2916#0" expanded="true" />
-                <element signature="e#2976#2977#0" expanded="true" />
-                <element signature="e#3030#3031#0" expanded="true" />
+                <element signature="e#1259#1260#0" expanded="true" />
+                <element signature="e#1292#1293#0" expanded="true" />
+                <element signature="e#1346#1347#0" expanded="true" />
+                <element signature="e#1390#1391#0" expanded="true" />
+                <element signature="e#1427#1428#0" expanded="true" />
+                <element signature="e#1457#1458#0" expanded="true" />
+                <element signature="e#1506#1507#0" expanded="true" />
+                <element signature="e#1544#1545#0" expanded="true" />
+                <element signature="e#1577#1578#0" expanded="true" />
+                <element signature="e#1606#1607#0" expanded="true" />
+                <element signature="e#1650#1651#0" expanded="true" />
+                <element signature="e#1686#1687#0" expanded="true" />
+                <element signature="e#1717#1718#0" expanded="true" />
+                <element signature="e#1743#1744#0" expanded="true" />
+                <element signature="e#1782#1783#0" expanded="true" />
+                <element signature="e#1812#1813#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BoutonVille.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Pan/Boutons/BoutonVille.java">
+      <file leaf-file-name="VillagePecheursEntree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Pan/Lieux/Villes/VillagePecheur/VillagePecheursEntree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-34">
-              <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PresentationPersonnages.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Pan/Introduction/PresentationPersonnages.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="121" column="45" lean-forward="true" selection-start-line="121" selection-start-column="45" selection-end-line="121" selection-end-column="45" />
+            <state relative-caret-position="85">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="29" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Personnage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Personnage/Personnage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VillagePecheurMagasin.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Pan/Lieux/Villes/VillagePecheur/VillagePecheurMagasin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="97" lean-forward="false" selection-start-line="14" selection-start-column="97" selection-end-line="14" selection-end-column="97" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Intro.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Pan/Intro.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="43" column="16" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VillagePecheurGrandePlace.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Pan/Lieux/Villes/VillagePecheur/VillagePecheurGrandePlace.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="14" column="101" lean-forward="false" selection-start-line="14" selection-start-column="101" selection-end-line="14" selection-end-column="101" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VillagePecheurTaverne.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Pan/Lieux/Villes/VillagePecheur/VillagePecheurTaverne.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="14" column="97" lean-forward="false" selection-start-line="14" selection-start-column="97" selection-end-line="14" selection-end-column="97" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -165,11 +216,19 @@
         <option value="$PROJECT_DIR$/src/Monstres/ChevalierNoirIntro.java" />
         <option value="$PROJECT_DIR$/src/Pan/PanDialogue.java" />
         <option value="$PROJECT_DIR$/src/Narration/IntroPersonnage/IntroApresCombat" />
-        <option value="$PROJECT_DIR$/src/Pan/Fenetre.java" />
         <option value="$PROJECT_DIR$/src/Pan/Introduction/CombatIntro.java" />
         <option value="$PROJECT_DIR$/src/Pan/BoutonVille.java" />
         <option value="$PROJECT_DIR$/src/Pan/Boutons/BoutonVille.java" />
+        <option value="$PROJECT_DIR$/src/Pan/Lieux/Villes.java" />
+        <option value="$PROJECT_DIR$/src/Pan/Lieux/Villes/VillagePecheurs.java" />
         <option value="$PROJECT_DIR$/src/Pan/Map.java" />
+        <option value="$PROJECT_DIR$/src/Pan/Lieux/Villes/VillagePecheur/VillagePecheurs.java" />
+        <option value="$PROJECT_DIR$/src/Pan/Lieux/Villes/VillagePecheur/VillagePecheurMagasin.java" />
+        <option value="$PROJECT_DIR$/src/Pan/Lieux/Villes/VillagePecheur/VillagePecheurGrandePlace.java" />
+        <option value="$PROJECT_DIR$/src/Pan/Lieux/Villes/VillagePecheur/VillagePecheurTaverne.java" />
+        <option value="$PROJECT_DIR$/src/Pan/Lieux/Villes/VillagePecheur/VillagePecheursEntree.java" />
+        <option value="$PROJECT_DIR$/src/Pan/Fenetre.java" />
+        <option value="$PROJECT_DIR$/src/Pan/Lieux/Villes/Villes.java" />
       </list>
     </option>
   </component>
@@ -223,7 +282,30 @@
               <item name="ProjetSeptiemeMagie" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Pan" type="462c0819:PsiDirectoryNode" />
-              <item name="Boutons" type="462c0819:PsiDirectoryNode" />
+              <item name="Lieux" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjetSeptiemeMagie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjetSeptiemeMagie" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Pan" type="462c0819:PsiDirectoryNode" />
+              <item name="Lieux" type="462c0819:PsiDirectoryNode" />
+              <item name="Villes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjetSeptiemeMagie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjetSeptiemeMagie" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Pan" type="462c0819:PsiDirectoryNode" />
+              <item name="Lieux" type="462c0819:PsiDirectoryNode" />
+              <item name="Villes" type="462c0819:PsiDirectoryNode" />
+              <item name="VillagePecheur" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjetSeptiemeMagie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjetSeptiemeMagie" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Personnage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -304,12 +386,12 @@
       <option name="presentableId" value="Default" />
       <updated>1564293762545</updated>
       <workItem from="1564293765914" duration="31332000" />
-      <workItem from="1564384444271" duration="18689000" />
+      <workItem from="1564384444271" duration="32562000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50021000" />
+    <option name="totallyTimeSpent" value="63894000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-6" width="1936" height="1056" extended-state="6" />
@@ -328,7 +410,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14010416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1828125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -395,7 +477,7 @@
         <state relative-caret-position="272">
           <caret line="21" column="42" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="42" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -594,72 +676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Personnage/Personnage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="58" column="25" lean-forward="false" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1680#1681#0" expanded="false" />
-            <element signature="e#1723#1724#0" expanded="false" />
-            <element signature="e#1769#1770#0" expanded="false" />
-            <element signature="e#1830#1831#0" expanded="false" />
-            <element signature="e#1868#1869#0" expanded="false" />
-            <element signature="e#1913#1914#0" expanded="false" />
-            <element signature="e#1953#1954#0" expanded="false" />
-            <element signature="e#2002#2003#0" expanded="false" />
-            <element signature="e#2043#2044#0" expanded="false" />
-            <element signature="e#2094#2095#0" expanded="false" />
-            <element signature="e#2134#2135#0" expanded="false" />
-            <element signature="e#2183#2184#0" expanded="false" />
-            <element signature="e#2223#2224#0" expanded="false" />
-            <element signature="e#2272#2273#0" expanded="false" />
-            <element signature="e#2311#2312#0" expanded="false" />
-            <element signature="e#2358#2359#0" expanded="false" />
-            <element signature="e#2479#2480#0" expanded="false" />
-            <element signature="e#2506#2507#0" expanded="false" />
-            <element signature="e#2543#2544#0" expanded="false" />
-            <element signature="e#2575#2576#0" expanded="false" />
-            <element signature="e#2612#2613#0" expanded="false" />
-            <element signature="e#2648#2649#0" expanded="false" />
-            <element signature="e#2703#2704#0" expanded="false" />
-            <element signature="e#2753#2754#0" expanded="false" />
-            <element signature="e#2782#2783#0" expanded="false" />
-            <element signature="e#2810#2811#0" expanded="false" />
-            <element signature="e#2849#2850#0" expanded="false" />
-            <element signature="e#2883#2884#0" expanded="false" />
-            <element signature="e#2914#2915#0" expanded="false" />
-            <element signature="e#2944#2945#0" expanded="false" />
-            <element signature="e#2987#2988#0" expanded="false" />
-            <element signature="e#3025#3026#0" expanded="false" />
-            <element signature="e#3057#3058#0" expanded="false" />
-            <element signature="e#3088#3089#0" expanded="false" />
-            <element signature="e#3133#3134#0" expanded="false" />
-            <element signature="e#3173#3174#0" expanded="false" />
-            <element signature="e#3214#3215#0" expanded="false" />
-            <element signature="e#3241#3242#0" expanded="false" />
-            <element signature="e#3291#3292#0" expanded="false" />
-            <element signature="e#3323#3324#0" expanded="false" />
-            <element signature="e#3354#3355#0" expanded="false" />
-            <element signature="e#3384#3385#0" expanded="false" />
-            <element signature="e#3427#3428#0" expanded="false" />
-            <element signature="e#3465#3466#0" expanded="false" />
-            <element signature="e#3496#3497#0" expanded="false" />
-            <element signature="e#3526#3527#0" expanded="false" />
-            <element signature="e#3569#3570#0" expanded="false" />
-            <element signature="e#3607#3608#0" expanded="false" />
-            <element signature="e#3637#3638#0" expanded="false" />
-            <element signature="e#3663#3664#0" expanded="false" />
-            <element signature="e#3701#3702#0" expanded="false" />
-            <element signature="e#3731#3732#0" expanded="false" />
-            <element signature="e#3761#3762#0" expanded="false" />
-            <element signature="e#3790#3791#0" expanded="false" />
-            <element signature="e#3831#3832#0" expanded="false" />
-            <element signature="e#3867#3868#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Monstres/Monstres.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
@@ -738,44 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pan/PanDialogue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1339">
-          <caret line="134" column="17" lean-forward="true" selection-start-line="134" selection-start-column="17" selection-end-line="134" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pan/Intro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="43" column="16" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pan/Fenetre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="50" column="33" lean-forward="false" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1962#1963#0" expanded="true" />
-            <element signature="e#1990#1991#0" expanded="true" />
-            <element signature="e#2032#2033#0" expanded="true" />
-            <element signature="e#2066#2067#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pan/Introduction/PresentationPersonnages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="121" column="45" lean-forward="true" selection-start-line="121" selection-start-column="45" selection-end-line="121" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Pan/Introduction/BoutonIntro/BoutonCarte.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -784,18 +762,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pan/Introduction/CombatIntro.java">
+    <entry file="file://$PROJECT_DIR$/src/Pan/Introduction/PresentationPersonnages.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="76" column="36" lean-forward="true" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="36" />
+        <state relative-caret-position="510">
+          <caret line="121" column="45" lean-forward="true" selection-start-line="121" selection-start-column="45" selection-end-line="121" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Pan/Boutons/BoutonVille.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        <state relative-caret-position="453">
+          <caret line="42" column="44" lean-forward="false" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -804,15 +782,130 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Pan/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="432">
+          <caret line="67" column="44" lean-forward="false" selection-start-line="67" selection-start-column="44" selection-end-line="67" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="class#781:1419" expanded="false" />
-            <element signature="e#2883#2884#0" expanded="true" />
-            <element signature="e#2915#2916#0" expanded="true" />
-            <element signature="e#2976#2977#0" expanded="true" />
-            <element signature="e#3030#3031#0" expanded="true" />
+            <element signature="e#2089#2090#0" expanded="true" />
+            <element signature="e#2121#2122#0" expanded="true" />
+            <element signature="e#2182#2183#0" expanded="true" />
+            <element signature="e#2236#2237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pan/Lieux/Villes/VillagePecheur/VillagePecheurGrandePlace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="101" lean-forward="false" selection-start-line="14" selection-start-column="101" selection-end-line="14" selection-end-column="101" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pan/Lieux/Villes/VillagePecheur/VillagePecheurTaverne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="14" column="97" lean-forward="false" selection-start-line="14" selection-start-column="97" selection-end-line="14" selection-end-column="97" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Personnage/Personnage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pan/Lieux/Villes/VillagePecheur/VillagePecheurMagasin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="97" lean-forward="false" selection-start-line="14" selection-start-column="97" selection-end-line="14" selection-end-column="97" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pan/Intro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="43" column="16" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pan/PanDialogue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pan/Fenetre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="53" column="62" lean-forward="false" selection-start-line="53" selection-start-column="62" selection-end-line="53" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2291#2292#0" expanded="true" />
+            <element signature="e#2319#2320#0" expanded="true" />
+            <element signature="e#2361#2362#0" expanded="true" />
+            <element signature="e#2395#2396#0" expanded="true" />
+            <element signature="e#2422#2423#0" expanded="true" />
+            <element signature="e#2448#2449#0" expanded="true" />
+            <element signature="e#2483#2484#0" expanded="true" />
+            <element signature="e#2513#2514#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pan/Introduction/CombatIntro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="404" column="38" lean-forward="true" selection-start-line="404" selection-start-column="38" selection-end-line="404" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pan/Lieux/Villes/VillagePecheur/VillagePecheursEntree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pan/Lieux/Villes/Villes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="674">
+          <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1259#1260#0" expanded="true" />
+            <element signature="e#1292#1293#0" expanded="true" />
+            <element signature="e#1346#1347#0" expanded="true" />
+            <element signature="e#1390#1391#0" expanded="true" />
+            <element signature="e#1427#1428#0" expanded="true" />
+            <element signature="e#1457#1458#0" expanded="true" />
+            <element signature="e#1506#1507#0" expanded="true" />
+            <element signature="e#1544#1545#0" expanded="true" />
+            <element signature="e#1577#1578#0" expanded="true" />
+            <element signature="e#1606#1607#0" expanded="true" />
+            <element signature="e#1650#1651#0" expanded="true" />
+            <element signature="e#1686#1687#0" expanded="true" />
+            <element signature="e#1717#1718#0" expanded="true" />
+            <element signature="e#1743#1744#0" expanded="true" />
+            <element signature="e#1782#1783#0" expanded="true" />
+            <element signature="e#1812#1813#0" expanded="true" />
           </folding>
         </state>
       </provider>
