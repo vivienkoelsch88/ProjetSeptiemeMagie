@@ -1,11 +1,14 @@
 package Pan.CombatAll;
 
+import Cartes.Force.VolDeLange;
 import Monstres.Monstres;
 import Pan.Combat;
 import Pan.Fenetre;
 import Pan.Introduction.BoutonIntro.BoutonCarte;
 import Pan.PanDialogue;
+import Pan.PanelInterface;
 import Personnage.Personnage;
+import Personnage.AfficheStats;
 
 import javax.swing.*;
 import java.awt.*;
@@ -14,7 +17,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
-public class BattelRound extends JPanel implements Combat, MouseListener, ActionListener {
+public class BattelRound extends JPanel implements Combat, MouseListener, ActionListener, PanelInterface {
     private Fenetre fen;
     private Personnage personnage;
     private String fondEcran;
@@ -25,13 +28,19 @@ public class BattelRound extends JPanel implements Combat, MouseListener, Action
     private int compteur = 0;
     private boolean afficherCarte = false;
     private boolean afficherMain = false;
-    private JButton plusInvest = new JButton("+");
-    private JButton moinsInvest = new JButton("-");
-    private JButton boutonInvest = new JButton("0");
+    private JButton effet1 = new JButton("" + this.investissementEffet1);
+    private JButton effet2 = new JButton("" + this.investissementEffet2);
     private int[] actionsCarte = {0, 0, 0};
+    private int idCarteChoisie = 0;
     private int personnageDefense = 0;
     private int[] placementDommages = {0, 0};
     private int dommages = 0;
+    private int investissement = 0;
+    private int investissementEffet1 = 0;
+    private int investissementEffet2 = 0;
+    private JButton plus = new JButton("+");
+    private JButton moins = new JButton("-");
+    private JButton invest = new JButton("" + this.investissement);
 
     private Timer timer = new Timer(50, new ActionListener() {
         @Override
@@ -57,6 +66,13 @@ public class BattelRound extends JPanel implements Combat, MouseListener, Action
         placementJoueur = 4;
         placementMonstre = 6;
         this.addMouseListener(this);
+        moins.addActionListener(this);
+        plus.addActionListener(this);
+        effet1.addActionListener(this);
+        effet2.addActionListener(this);
+
+        personnage.ajouterCarteAuDeck(new VolDeLange());
+        personnage.ajouterCarteAuDeck(new VolDeLange());
     }
 
 //    *************************************** Paint ****************************
@@ -108,24 +124,14 @@ public void paintComponent(Graphics g) {
     g.setFont(font);
 
 //        ******************************** fenetre du joueur ******************************************************
-    g.setColor((Color.GRAY));
-    g.fillRoundRect(5, 5, this.getWidth() / 4, this.getHeight() / 4, 5, 5);
-    font = new Font("desc", Font.BOLD, 15);
-    g.setFont(font);
-    g.setColor((Color.WHITE));
-    g.drawString("Concentration : " + this.personnage.getConcentration(), 15, 30);
-    g.drawString("Adresse : " + this.personnage.getAdresse(), 15, 50);
-    g.drawString("Charisme : " + this.personnage.getCharisme(), 15, 70);
-    g.drawString("Force : " + this.personnage.getForce(), 15, 90);
-    g.drawString("Attaque : " + this.personnage.getAttaque() + "  Défense : " + (this.personnage.getDefense() + this.personnageDefense), 15, 110);
-    g.drawString("Portée : " + this.personnage.getPortee(), 15, 130);
-    g.drawString("Vie : " + this.personnage.getLife(), 15, 150);
+    JComponent jComponent = new AfficheStats(this.personnage, this);
+    this.add(jComponent);
 
 //        ************************************** Afficher carte **********************************************
 
     if(afficherMain){
-        for(int i = 0; i < 3; i++) {
-            JButton carte = new JButton(new BoutonCarte(this));
+        for(int i = 0; i < personnage.getDeck().size(); i++) {
+            JButton carte = new JButton(new BoutonCarte(this, personnage.getDeck().get(i).getName(), i));
             carte.addActionListener(this);
             carte.setBounds(50 + i * 125, this.getHeight() - 190, 120, 160);
             this.add(carte);
@@ -134,8 +140,26 @@ public void paintComponent(Graphics g) {
 
 //        ********************************* Afficher la carte choisie par le joueur ***************************
     if(afficherCarte){
-        Image carte = new javax.swing.ImageIcon(getClass().getResource("/Cartes/ImageCartes/Cartedebase.png")).getImage();
+        Image carte = new javax.swing.ImageIcon(getClass().getResource(personnage.getDeck().get(this.idCarteChoisie).getImage())).getImage();
         g.drawImage(carte, 255, 20, this.getWidth()/2, this.getHeight() - 50, this);
+
+        plus.setBounds(550, 550 , 45, 35);
+        this.add(plus);
+
+        moins.setBounds(370, 550 , 45, 35);
+        this.add(moins);
+
+        invest.setBounds(445, 550 , 75, 35);
+        invest.setText("" + investissement);
+        this.add(invest);
+
+        effet1.setBounds(300, 430 , 45, 35);
+        effet1.setText("" + investissementEffet1);
+        this.add(effet1);
+
+        effet2.setBounds(300, 500 , 45, 35);
+        effet2.setText("" + investissementEffet2);
+        this.add(effet2);
     }
 }
 
@@ -197,9 +221,12 @@ public void paintComponent(Graphics g) {
     }
 
     @Override
-    public void afficherCarte() {
+    public void afficherCarte(int id) {
+        this.removeAll();
+        this.idCarteChoisie = id;
         afficherMain = false;
         afficherCarte = true;
+        compteur++;
     }
 
     @Override
@@ -209,7 +236,26 @@ public void paintComponent(Graphics g) {
 
     @Override
     public void mousePressed(MouseEvent e) {
+        System.out.println(e.getComponent());
+        switch (compteur) {
+            case 0:
+                this.message = "Choix action";
+                afficherMain = true;
+                compteur++;
+                break;
 
+            case 2 :
+                if(e.getX() < 254 || e.getX() > 745  || e.getY() < 19 && e.getY() > 630) {
+                    this.removeAll();
+                    afficherMain = true;
+                    afficherCarte = false;
+                    compteur = 1;
+                    investissement = 0;
+                    investissementEffet1 = 0;
+                    investissementEffet2 = 0;
+                }
+                break;
+        }
     }
 
     @Override
@@ -229,6 +275,51 @@ public void paintComponent(Graphics g) {
 
     @Override
     public void actionPerformed(ActionEvent e) {
+        Object source = e.getSource();
+        if(source == this.plus){
+            this.removeAll();
+            this.investissement++;
+            if(investissement + investissementEffet1 + investissementEffet2 > personnage.getDeck().get(this.idCarteChoisie).getNiveau() * 10){
+                this.investissement--;
+            }
+        }
+        if(source == this.moins){
+            this.removeAll();
+            this.investissement--;
+            if(investissement < 0){
+                this.investissement = 0;
+            }
+        }
+
+        if(source == this.effet1){
+            this.removeAll();
+            if(investissementEffet1 == 0) {
+                this.investissementEffet1 = personnage.getDeck().get(idCarteChoisie).getCoutEffet1();
+                if (investissement + investissementEffet1 + investissementEffet2 > personnage.getDeck().get(this.idCarteChoisie).getNiveau() * 10) {
+                    this.investissement = personnage.getDeck().get(this.idCarteChoisie).getNiveau() * 10 - investissementEffet1 - investissementEffet2;
+                }
+            } else {
+                investissementEffet1 = 0;
+            }
+        }
+
+        if(source == this.effet2){
+            this.removeAll();
+            if(investissementEffet2 == 0) {
+                this.investissementEffet2 = personnage.getDeck().get(idCarteChoisie).getCoutEffet2();
+                if (investissement + investissementEffet2 + investissementEffet1 > personnage.getDeck().get(this.idCarteChoisie).getNiveau() * 10) {
+                    this.investissement = personnage.getDeck().get(this.idCarteChoisie).getNiveau() * 10 - investissementEffet2 - investissementEffet1;
+                }
+            } else {
+                investissementEffet2 = 0;
+            }
+        }
+    }
+
+    @Override
+    public void appel() {
 
     }
+
+
 }

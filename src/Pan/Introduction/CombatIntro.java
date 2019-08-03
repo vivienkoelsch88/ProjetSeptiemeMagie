@@ -385,7 +385,7 @@ public class CombatIntro extends JPanel implements PanelInterface, KeyListener, 
     }
 
 //    ************************************ Gestion des boutons ***************************
-    public void afficherCarte(){
+    public void afficherCarte(int id){
         this.removeAll();
         afficherMain = false;
         afficherCarte = true;

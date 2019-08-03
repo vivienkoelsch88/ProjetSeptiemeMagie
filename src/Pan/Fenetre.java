@@ -62,16 +62,16 @@ public class Fenetre  extends JFrame{
 //        this.getContentPane().revalidate();
 
 //        ******************************** Un combat *************************************
-//          this.panel = new BattelRound(this, new Personnage(), "/Narration/IntroPersonnage/incendie.jpg", new ChevalierNoirIntro());
-//          setContentPane(panel);
-//          panel.repaint();
-//          this.getContentPane().revalidate();
+          this.panel = new BattelRound(this, new Personnage(), "/Narration/IntroPersonnage/incendie.jpg", new ChevalierNoirIntro());
+          setContentPane(panel);
+          panel.repaint();
+          this.getContentPane().revalidate();
 
 //        ********************************** Arbre de compétence ***************************
-        this.panel = new ArbreCompetence(new Personnage());
-        setContentPane(panel);
-        panel.repaint();
-        this.getContentPane().revalidate();
+//        this.panel = new ArbreCompetence(new Personnage());
+//        setContentPane(panel);
+//        panel.repaint();
+//        this.getContentPane().revalidate();
     }
 
 //    ******************************************************************************************

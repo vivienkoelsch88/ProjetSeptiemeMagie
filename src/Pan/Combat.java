@@ -15,5 +15,5 @@ public interface Combat {
     public void MAttaquer(int puissance);
     public void MDefendre(int puissance);
     public void MAvancer(int nbrCase);
-    public void afficherCarte();
+    public void afficherCarte(int id);
 }

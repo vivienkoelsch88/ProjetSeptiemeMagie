@@ -1,6 +1,6 @@
 package Personnage;
 
-import Pan.Introduction.BoutonIntro.BoutonCarte;
+import Personnage.Competences.BoutonCompetence;
 
 import javax.swing.*;
 import java.awt.*;

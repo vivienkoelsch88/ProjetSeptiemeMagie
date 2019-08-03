@@ -2,47 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be4d591d-19b3-4af9-a6d0-266afb1b5a79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Pan/CombatAll/BattelRound.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Personnage/ArbreCompetence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Personnage/BoutonCompetence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Personnage/Competences/Competence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Personnage/Competences/CompetencesPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Personnage/Competences/Magie/Competence1Magie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Personnage/AfficheStats.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Cartes/Carte.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Cartes/Carte.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Cartes/Force/VolDeLange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Cartes/Force/VolDeLange.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Monstres/ChevalierNoirIntro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Monstres/ChevalierNoirIntro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Monstres/Monstres.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Monstres/Monstres.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Narration/ReadStory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Narration/ReadStory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Boutons/BoutonVille.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Boutons/BoutonVille.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Combat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Combat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/CombatAll/BattelRound$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/CombatAll/BattelRound$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/CombatAll/BattelRound.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/CombatAll/BattelRound.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Fenetre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Fenetre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Intro$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Intro$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Intro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Intro.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Introduction/BoutonIntro/BoutonCarte.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Introduction/BoutonIntro/BoutonCarte.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Introduction/CombatIntro$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Introduction/CombatIntro$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Introduction/CombatIntro$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Introduction/CombatIntro$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Introduction/CombatIntro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Introduction/CombatIntro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Introduction/PresentationPersonnages$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Introduction/PresentationPersonnages$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Introduction/PresentationPersonnages.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Introduction/PresentationPersonnages.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Lieux/Villes/VillagePecheur/VillagePecheurGrandePlace.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Lieux/Villes/VillagePecheur/VillagePecheurGrandePlace.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Lieux/Villes/VillagePecheur/VillagePecheurMagasin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Lieux/Villes/VillagePecheur/VillagePecheurMagasin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Lieux/Villes/VillagePecheur/VillagePecheurTaverne.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Lieux/Villes/VillagePecheur/VillagePecheurTaverne.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Lieux/Villes/VillagePecheur/VillagePecheursEntree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Lieux/Villes/VillagePecheur/VillagePecheursEntree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Lieux/Villes/Villes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Lieux/Villes/Villes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Map.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Map.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/PanDialogue$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/PanDialogue$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/PanDialogue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/PanDialogue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/PanelInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/PanelInterface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Personnage/Personnage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Personnage/Personnage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/RunGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/RunGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Monstres/ChevalierNoirIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monstres/ChevalierNoirIntro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Monstres/Monstres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monstres/Monstres.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Personnage/ArbreCompetence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Personnage/ArbreCompetence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Personnage/BoutonCompetence.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pan/Combat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pan/Combat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pan/CombatAll/BattelRound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pan/CombatAll/BattelRound.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pan/Fenetre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pan/Fenetre.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pan/Introduction/BoutonIntro/BoutonCarte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pan/Introduction/BoutonIntro/BoutonCarte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Personnage/Personnage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Personnage/Personnage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pan/Introduction/CombatIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pan/Introduction/CombatIntro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Personnage/ArbreCompetence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Personnage/ArbreCompetence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Personnage/BoutonCompetence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Personnage/Competences/BoutonCompetence.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,11 +33,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Pan/CombatAll/BattelRound.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="244" column="22" lean-forward="true" selection-start-line="244" selection-start-column="22" selection-end-line="244" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Pan/Fenetre.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="70" column="57" selection-start-line="70" selection-start-column="57" selection-end-line="70" selection-end-column="57" />
+            <state relative-caret-position="279">
+              <caret line="67" column="31" selection-start-line="64" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,10 +58,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Personnage/ArbreCompetence.java">
+        <entry file="file://$PROJECT_DIR$/src/Pan/Lieux/Villes/VillagePecheur/VillagePecheurGrandePlace.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-255">
-              <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+            <state relative-caret-position="119">
+              <caret line="14" column="101" selection-start-line="14" selection-start-column="101" selection-end-line="14" selection-end-column="101" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,56 +70,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Personnage/BoutonCompetence.java">
+        <entry file="file://$PROJECT_DIR$/src/Personnage/Competences/BoutonCompetence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Personnage/Competences/CompetencesPath.java">
+        <entry file="file://$PROJECT_DIR$/src/Personnage/AfficheStats.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+            <state relative-caret-position="121">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Personnage/Competences/Competence.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Personnage/Personnage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Personnage/Competences/Magie/Competence1Magie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#445#446#0" expanded="true" />
-                <element signature="e#472#473#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -139,17 +93,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Cartes/Carte.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
+            <state relative-caret-position="459">
               <caret line="27" column="94" selection-start-line="27" selection-start-column="79" selection-end-line="27" selection-end-column="94" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Cartes/Force/VolDeLange.java">
+        <entry file="file://$PROJECT_DIR$/src/Pan/Introduction/BoutonIntro/BoutonCarte.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="289">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Pan/Combat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Pan/Introduction/CombatIntro.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6358">
+              <caret line="395" column="38" selection-start-line="395" selection-start-column="7" selection-end-line="395" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Personnage/Personnage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
@@ -208,18 +192,20 @@
         <option value="$PROJECT_DIR$/src/Pan/Combat/Combat.java" />
         <option value="$PROJECT_DIR$/src/Pan/CombatAll/Combat.java" />
         <option value="$PROJECT_DIR$/src/Personnage/Personnage.java" />
-        <option value="$PROJECT_DIR$/src/Pan/Combat.java" />
-        <option value="$PROJECT_DIR$/src/Pan/Introduction/BoutonIntro/BoutonCarte.java" />
-        <option value="$PROJECT_DIR$/src/Pan/Introduction/CombatIntro.java" />
         <option value="$PROJECT_DIR$/src/Monstres/Monstres.java" />
-        <option value="$PROJECT_DIR$/src/Pan/CombatAll/BattelRound.java" />
         <option value="$PROJECT_DIR$/src/Monstres/ChevalierNoirIntro.java" />
         <option value="$PROJECT_DIR$/src/Personnage/Competences/CompetencesPath.java" />
         <option value="$PROJECT_DIR$/src/Personnage/BoutonCompetence.java" />
-        <option value="$PROJECT_DIR$/src/Pan/Fenetre.java" />
         <option value="$PROJECT_DIR$/src/Personnage/ArbreCompetence.java" />
         <option value="$PROJECT_DIR$/src/Personnage/Competences/Competence.java" />
         <option value="$PROJECT_DIR$/src/Personnage/Competences/Magie/Competence1Magie.java" />
+        <option value="$PROJECT_DIR$/src/Pan/Introduction/BoutonIntro/BoutonCarte.java" />
+        <option value="$PROJECT_DIR$/src/Pan/Introduction/CombatIntro.java" />
+        <option value="$PROJECT_DIR$/src/Pan/Combat.java" />
+        <option value="$PROJECT_DIR$/src/Personnage/Competences/BoutonCompetence.java" />
+        <option value="$PROJECT_DIR$/src/Personnage/AfficheStats.java" />
+        <option value="$PROJECT_DIR$/src/Pan/Fenetre.java" />
+        <option value="$PROJECT_DIR$/src/Pan/CombatAll/BattelRound.java" />
       </list>
     </option>
   </component>
@@ -234,7 +220,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -264,13 +249,6 @@
               <item name="ProjetSeptiemeMagie" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProjetSeptiemeMagie" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Cartes" type="462c0819:PsiDirectoryNode" />
-              <item name="ImageCartes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetSeptiemeMagie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetSeptiemeMagie" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Pan" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -278,48 +256,34 @@
               <item name="ProjetSeptiemeMagie" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Pan" type="462c0819:PsiDirectoryNode" />
-              <item name="Boutons" type="462c0819:PsiDirectoryNode" />
+              <item name="CombatAll" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ProjetSeptiemeMagie" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProjetSeptiemeMagie" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Pan" type="462c0819:PsiDirectoryNode" />
-              <item name="Villes" type="462c0819:PsiDirectoryNode" />
+              <item name="Introduction" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ProjetSeptiemeMagie" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProjetSeptiemeMagie" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Pan" type="462c0819:PsiDirectoryNode" />
-              <item name="Villes" type="462c0819:PsiDirectoryNode" />
-              <item name="VillagePecheur" type="462c0819:PsiDirectoryNode" />
+              <item name="Introduction" type="462c0819:PsiDirectoryNode" />
+              <item name="BoutonIntro" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ProjetSeptiemeMagie" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProjetSeptiemeMagie" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Personnage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetSeptiemeMagie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetSeptiemeMagie" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Personnage" type="462c0819:PsiDirectoryNode" />
-              <item name="Competences" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetSeptiemeMagie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetSeptiemeMagie" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Personnage" type="462c0819:PsiDirectoryNode" />
-              <item name="Competences" type="462c0819:PsiDirectoryNode" />
-              <item name="Magie" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -383,18 +347,19 @@
       <updated>1564293762545</updated>
       <workItem from="1564293765914" duration="31332000" />
       <workItem from="1564384444271" duration="32562000" />
-      <workItem from="1564756901406" duration="10293000" />
+      <workItem from="1564756901406" duration="15830000" />
+      <workItem from="1564825183049" duration="2254000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74187000" />
+    <option name="totallyTimeSpent" value="81978000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18532526" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18835099" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -403,7 +368,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32569557" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32569557" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -518,16 +483,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pan/Lieux/Villes/VillagePecheur/VillagePecheurGrandePlace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="101" selection-start-line="14" selection-start-column="101" selection-end-line="14" selection-end-column="101" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Pan/Lieux/Villes/VillagePecheur/VillagePecheurTaverne.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -565,23 +520,6 @@
     <entry file="file://$PROJECT_DIR$/src/Images/PersonnageIcon.gif">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pan/Combat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pan/Introduction/BoutonIntro/BoutonCarte.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Monstres/Monstres.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
@@ -596,24 +534,6 @@
           <folding>
             <element signature="e#608#609#0" expanded="true" />
             <element signature="e#635#636#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pan/CombatAll/BattelRound.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10">
-          <caret line="199" column="33" lean-forward="true" selection-start-line="199" selection-start-column="33" selection-end-line="199" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5705#5706#0" expanded="true" />
-            <element signature="e#5784#5785#0" expanded="true" />
-            <element signature="e#6075#6076#0" expanded="true" />
-            <element signature="e#6155#6156#0" expanded="true" />
-            <element signature="e#6215#6216#0" expanded="true" />
-            <element signature="e#6252#6253#0" expanded="true" />
-            <element signature="e#6518#6519#0" expanded="true" />
-            <element signature="e#6593#6594#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -654,41 +574,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pan/Introduction/CombatIntro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2312">
-          <caret line="147" column="32" lean-forward="true" selection-start-line="144" selection-start-column="16" selection-end-line="147" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pan/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1265">
-          <caret line="81" column="25" lean-forward="true" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2089#2090#0" expanded="true" />
-            <element signature="e#2121#2122#0" expanded="true" />
-            <element signature="e#2182#2183#0" expanded="true" />
-            <element signature="e#2236#2237#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Pan/Boutons/BoutonVille.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="45" column="27" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="45" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pan/Fenetre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="70" column="57" selection-start-line="70" selection-start-column="57" selection-end-line="70" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -705,12 +594,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Personnage/BoutonCompetence.java">
+    <entry file="file://$PROJECT_DIR$/src/Personnage/Competences/Magie/Competence1Magie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pan/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="81" column="25" lean-forward="true" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2089#2090#0" expanded="true" />
+            <element signature="e#2121#2122#0" expanded="true" />
+            <element signature="e#2182#2183#0" expanded="true" />
+            <element signature="e#2236#2237#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -732,20 +637,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Personnage/Personnage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cartes/Carte.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="27" column="94" selection-start-line="27" selection-start-column="79" selection-end-line="27" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Cartes/Force/VolDeLange.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -753,14 +644,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Personnage/Competences/Magie/Competence1Magie.java">
+    <entry file="file://$PROJECT_DIR$/src/Cartes/Carte.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+        <state relative-caret-position="459">
+          <caret line="27" column="94" selection-start-line="27" selection-start-column="79" selection-end-line="27" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pan/Introduction/BoutonIntro/BoutonCarte.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pan/Combat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pan/Introduction/CombatIntro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6358">
+          <caret line="395" column="38" selection-start-line="395" selection-start-column="7" selection-end-line="395" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Personnage/Personnage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pan/Fenetre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="67" column="31" selection-start-line="64" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Personnage/AfficheStats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Personnage/Competences/BoutonCompetence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pan/Lieux/Villes/VillagePecheur/VillagePecheurGrandePlace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="14" column="101" selection-start-line="14" selection-start-column="101" selection-end-line="14" selection-end-column="101" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pan/CombatAll/BattelRound.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="244" column="22" lean-forward="true" selection-start-line="244" selection-start-column="22" selection-end-line="244" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

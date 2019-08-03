@@ -1,7 +1,9 @@
-package Personnage;
+package Personnage.Competences;
 
 import Personnage.Competences.Competence;
 import Personnage.Competences.CompetencesPath;
+import Personnage.Personnage;
+import Personnage.ArbreCompetence;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
