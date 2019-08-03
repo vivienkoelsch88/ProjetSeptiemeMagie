@@ -173,4 +173,5 @@ public class Personnage {
     public void setPortee(int portee) {
         this.portee = portee;
     }
+
 }

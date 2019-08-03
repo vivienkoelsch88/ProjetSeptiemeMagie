@@ -1,5 +1,10 @@
 package Pan;
 
+import Personnage.ArbreCompetence;
+import Monstres.Monstres;
+import Monstres.ChevalierNoirIntro;
+import Pan.CombatAll.BattelRound;
+import Pan.Introduction.PresentationPersonnages;
 import Pan.Lieux.Villes.VillagePecheur.VillagePecheursEntree;
 
 import javax.swing.*;
@@ -37,7 +42,7 @@ public class Fenetre  extends JFrame{
 //        panel.repaint();
 //        this.getContentPane().revalidate();
 
-//        ************************** Combat intro **********************************************************************************
+//        ************************** CombatAll intro **********************************************************************************
 //        PresentationPersonnages presentationPersonnages = new PresentationPersonnages(this);
 //        this.setContentPane(presentationPersonnages);
 //        presentationPersonnages.repaint();
@@ -51,7 +56,19 @@ public class Fenetre  extends JFrame{
 //        this.getContentPane().revalidate();
 
 //        ****************************** Ville ***********************************
-        this.panel = new VillagePecheursEntree(this, new Personnage());
+//        this.panel = new VillagePecheursEntree(this, new Personnage());
+//        setContentPane(panel);
+//        panel.repaint();
+//        this.getContentPane().revalidate();
+
+//        ******************************** Un combat *************************************
+//          this.panel = new BattelRound(this, new Personnage(), "/Narration/IntroPersonnage/incendie.jpg", new ChevalierNoirIntro());
+//          setContentPane(panel);
+//          panel.repaint();
+//          this.getContentPane().revalidate();
+
+//        ********************************** Arbre de compétence ***************************
+        this.panel = new ArbreCompetence(new Personnage());
         setContentPane(panel);
         panel.repaint();
         this.getContentPane().revalidate();

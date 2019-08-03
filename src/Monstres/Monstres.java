@@ -46,4 +46,6 @@ public abstract class Monstres {
     public String getGif() {
         return gif;
     }
+
+    public abstract String getName();
 }

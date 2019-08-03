@@ -4,6 +4,7 @@ import Pan.Combat;
 
 public class ChevalierNoirIntro extends Monstres {
     private int tourDeCombat = 1;
+    private String name = "Chevalier Noir";
 
     public ChevalierNoirIntro() {
         super("/Narration/IntroPersonnage/gifChevalierNoir.gif", 100, 8, 15);
@@ -18,5 +19,10 @@ public class ChevalierNoirIntro extends Monstres {
                 break;
         }
         tourDeCombat++;
+    }
+
+    @Override
+    public String getName() {
+        return name;
     }
 }
