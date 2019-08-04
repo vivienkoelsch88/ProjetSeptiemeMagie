@@ -236,7 +236,7 @@ public void paintComponent(Graphics g) {
 
     @Override
     public void mousePressed(MouseEvent e) {
-        System.out.println(e.getComponent());
+
         switch (compteur) {
             case 0:
                 this.message = "Choix action";

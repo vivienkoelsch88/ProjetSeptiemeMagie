@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be4d591d-19b3-4af9-a6d0-266afb1b5a79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Personnage/AfficheStats.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Combat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Combat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/CombatAll/BattelRound$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/CombatAll/BattelRound$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/CombatAll/BattelRound.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/CombatAll/BattelRound.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Fenetre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Fenetre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Introduction/BoutonIntro/BoutonCarte.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Introduction/BoutonIntro/BoutonCarte.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Introduction/CombatIntro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Pan/Introduction/CombatIntro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Personnage/ArbreCompetence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Personnage/ArbreCompetence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Personnage/BoutonCompetence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pan/Combat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pan/Combat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pan/CombatAll/BattelRound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pan/CombatAll/BattelRound.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pan/Fenetre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pan/Fenetre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pan/Introduction/BoutonIntro/BoutonCarte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pan/Introduction/BoutonIntro/BoutonCarte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pan/Introduction/CombatIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pan/Introduction/CombatIntro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Personnage/ArbreCompetence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Personnage/ArbreCompetence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Personnage/BoutonCompetence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Personnage/Competences/BoutonCompetence.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Pan/CombatAll/BattelRound.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="244" column="22" lean-forward="true" selection-start-line="244" selection-start-column="22" selection-end-line="244" selection-end-column="22" />
+            <state relative-caret-position="248">
+              <caret line="238" column="8" selection-start-line="238" selection-start-column="8" selection-end-line="238" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Pan/Fenetre.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="67" column="31" selection-start-line="64" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
+            <state relative-caret-position="262">
+              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -204,8 +189,8 @@
         <option value="$PROJECT_DIR$/src/Pan/Combat.java" />
         <option value="$PROJECT_DIR$/src/Personnage/Competences/BoutonCompetence.java" />
         <option value="$PROJECT_DIR$/src/Personnage/AfficheStats.java" />
-        <option value="$PROJECT_DIR$/src/Pan/Fenetre.java" />
         <option value="$PROJECT_DIR$/src/Pan/CombatAll/BattelRound.java" />
+        <option value="$PROJECT_DIR$/src/Pan/Fenetre.java" />
       </list>
     </option>
   </component>
@@ -348,18 +333,18 @@
       <workItem from="1564293765914" duration="31332000" />
       <workItem from="1564384444271" duration="32562000" />
       <workItem from="1564756901406" duration="15830000" />
-      <workItem from="1564825183049" duration="2254000" />
+      <workItem from="1564825183049" duration="3825000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81978000" />
+    <option name="totallyTimeSpent" value="83549000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18835099" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18835099" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -368,7 +353,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32569557" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32569557" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -682,16 +667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pan/Fenetre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="67" column="31" selection-start-line="64" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Personnage/AfficheStats.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
@@ -721,8 +696,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Pan/CombatAll/BattelRound.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="244" column="22" lean-forward="true" selection-start-line="244" selection-start-column="22" selection-end-line="244" selection-end-column="22" />
+        <state relative-caret-position="248">
+          <caret line="238" column="8" selection-start-line="238" selection-start-column="8" selection-end-line="238" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pan/Fenetre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
