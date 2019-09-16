@@ -15,7 +15,7 @@ public class PanDialogue extends JPanel implements KeyListener, ActionListener, 
     private String persoGauche;
     private String story [];
     private int SizeStory;
-    private boolean personnageParlant = true;  //Lorce que le personnage de gauche parle
+    private boolean personnageParlant = true;  //Lors ce que le personnage de gauche parle
 
 //    ************ Afficher les dialogues **********
     private int ligneDialogue = 0;

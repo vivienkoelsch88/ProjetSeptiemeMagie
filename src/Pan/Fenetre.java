@@ -38,10 +38,10 @@ public class Fenetre  extends JFrame{
     public void suite(){
 
 //        ******************** Debut ****************************************
-//        this.panel = new PresentationPersonnages(this);
-//        this.setContentPane(panel);
-//        panel.repaint();
-//        this.getContentPane().revalidate();
+        this.panel = new PresentationPersonnages(this);
+        this.setContentPane(panel);
+        panel.repaint();
+        this.getContentPane().revalidate();
 
 //        ************************** CombatAll intro **********************************************************************************
 //        PresentationPersonnages presentationPersonnages = new PresentationPersonnages(this);
@@ -63,10 +63,10 @@ public class Fenetre  extends JFrame{
 //        this.getContentPane().revalidate();
 
 //        ******************************** Un combat *************************************
-          this.panel = new BattelRound(this, new Personnage(), "/Narration/IntroPersonnage/incendie.jpg", new ChevalierNoirIntro());
-          setContentPane(panel);
-          panel.repaint();
-          this.getContentPane().revalidate();
+//          this.panel = new BattelRound(this, new Personnage(), "/Narration/IntroPersonnage/incendie.jpg", new ChevalierNoirIntro());
+//          setContentPane(panel);
+//          panel.repaint();
+//          this.getContentPane().revalidate();
 
 //        ********************************** Arbre de compétence ***************************
 //        this.panel = new ArbreCompetence(new Personnage());

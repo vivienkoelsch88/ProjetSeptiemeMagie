@@ -19,7 +19,6 @@ public class ReadStory {
 
         while (line != null)
         {
-
             story [numLine] = line;
             ++numLine;
             line = inFile.readLine();

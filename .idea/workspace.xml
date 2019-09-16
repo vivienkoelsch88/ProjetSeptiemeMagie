@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="be4d591d-19b3-4af9-a6d0-266afb1b5a79" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pan/CombatAll/BattelRound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pan/CombatAll/BattelRound.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pan/Fenetre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pan/Fenetre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Narration/ReadStory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/Narration/ReadStory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/RunGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSeptiemeMagie/RunGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Narration/ReadStory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Narration/ReadStory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RunGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RunGame.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,10 +21,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Pan/CombatAll/BattelRound.java">
+        <entry file="file://$PROJECT_DIR$/src/Pan/Intro.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="238" column="8" selection-start-line="238" selection-start-column="8" selection-end-line="238" selection-end-column="8" />
+            <state relative-caret-position="-170">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,10 +33,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Pan/Fenetre.java">
+        <entry file="file://$PROJECT_DIR$/src/Pan/PanDialogue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+            <state relative-caret-position="323">
+              <caret line="88" column="84" lean-forward="true" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="84" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,73 +45,81 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Pan/Lieux/Villes/VillagePecheur/VillagePecheurGrandePlace.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="14" column="101" selection-start-line="14" selection-start-column="101" selection-end-line="14" selection-end-column="101" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Personnage/Competences/BoutonCompetence.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Personnage/AfficheStats.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Cartes/Carte.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="94" selection-start-line="27" selection-start-column="79" selection-end-line="27" selection-end-column="94" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Pan/Introduction/BoutonIntro/BoutonCarte.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Pan/Combat.java">
+        <entry file="file://$PROJECT_DIR$/src/Pan/CombatAll/BattelRound.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+              <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Pan/Introduction/CombatIntro.java">
+        <entry file="file://$PROJECT_DIR$/src/RunGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6358">
-              <caret line="395" column="38" selection-start-line="395" selection-start-column="7" selection-end-line="395" selection-end-column="38" />
+            <state relative-caret-position="119">
+              <caret line="7" column="20" selection-start-line="6" selection-start-column="8" selection-end-line="7" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Pan/Fenetre.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Pan/Map.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2089#2090#0" expanded="true" />
+                <element signature="e#2121#2122#0" expanded="true" />
+                <element signature="e#2182#2183#0" expanded="true" />
+                <element signature="e#2236#2237#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Pan/Introduction/PresentationPersonnages.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-612">
+              <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Monstres/Monstres.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="49" column="37" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Monstres/ChevalierNoirIntro.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+              <folding>
+                <element signature="e#608#609#0" expanded="true" />
+                <element signature="e#635#636#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,12 +153,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/RunGame.java" />
         <option value="$PROJECT_DIR$/src/Fenetre.java" />
         <option value="$PROJECT_DIR$/src/Pan/CreationPersonnages.java" />
         <option value="$PROJECT_DIR$/src/Personnage/Carte.java" />
         <option value="$PROJECT_DIR$/src/Narration/IntroPersonnage/IntroPerso" />
-        <option value="$PROJECT_DIR$/src/Narration/ReadStory.java" />
         <option value="$PROJECT_DIR$/src/Pan/PresentationPersonnages.java" />
         <option value="$PROJECT_DIR$/src/Pan/Introduction/PanDialogue.java" />
         <option value="$PROJECT_DIR$/src/Narration/IntroPersonnage/DialogueIntro.java" />
@@ -191,14 +199,15 @@
         <option value="$PROJECT_DIR$/src/Personnage/AfficheStats.java" />
         <option value="$PROJECT_DIR$/src/Pan/CombatAll/BattelRound.java" />
         <option value="$PROJECT_DIR$/src/Pan/Fenetre.java" />
+        <option value="$PROJECT_DIR$/src/RunGame.java" />
+        <option value="$PROJECT_DIR$/src/Narration/ReadStory.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="170" />
-    <option name="y" value="91" />
-    <option name="width" value="1026" />
-    <option name="height" value="546" />
+    <option name="x" value="493" />
+    <option name="width" value="880" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -221,48 +230,7 @@
               <item name="ProjetSeptiemeMagie" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProjetSeptiemeMagie" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Cartes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetSeptiemeMagie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetSeptiemeMagie" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Cartes" type="462c0819:PsiDirectoryNode" />
-              <item name="Force" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetSeptiemeMagie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetSeptiemeMagie" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Pan" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetSeptiemeMagie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetSeptiemeMagie" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Pan" type="462c0819:PsiDirectoryNode" />
-              <item name="CombatAll" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetSeptiemeMagie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetSeptiemeMagie" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Pan" type="462c0819:PsiDirectoryNode" />
-              <item name="Introduction" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetSeptiemeMagie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetSeptiemeMagie" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Pan" type="462c0819:PsiDirectoryNode" />
-              <item name="Introduction" type="462c0819:PsiDirectoryNode" />
-              <item name="BoutonIntro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetSeptiemeMagie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetSeptiemeMagie" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Personnage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -279,7 +247,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -333,18 +301,27 @@
       <workItem from="1564293765914" duration="31332000" />
       <workItem from="1564384444271" duration="32562000" />
       <workItem from="1564756901406" duration="15830000" />
-      <workItem from="1564825183049" duration="3825000" />
+      <workItem from="1564825183049" duration="4496000" />
+      <workItem from="1565367377067" duration="949000" />
+      <workItem from="1565383050622" duration="11000" />
+      <workItem from="1566375619422" duration="2321000" />
+      <workItem from="1566552132775" duration="281000" />
+      <workItem from="1566553143887" duration="916000" />
+      <workItem from="1566597915747" duration="423000" />
+      <workItem from="1567970335665" duration="5604000" />
+      <workItem from="1567978323078" duration="1387000" />
+      <workItem from="1568203150507" duration="983000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83549000" />
+    <option name="totallyTimeSpent" value="97095000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18835099" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13464448" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -353,7 +330,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32569557" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32569557" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -412,13 +389,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/RunGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Narration/IntroPersonnage/DialogueIntro.java" />
     <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/String.java" />
     <entry file="file://$PROJECT_DIR$/src/Pan/Introduction/BoutonIntro/BoutonEffetDeCarte.java" />
@@ -435,13 +405,6 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Narration/IntroPersonnage/IntroApresCombat" />
-    <entry file="file://$PROJECT_DIR$/src/Narration/ReadStory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Narration/IntroPersonnage/IntroDial">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -454,7 +417,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -478,50 +440,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pan/Intro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pan/PanDialogue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pan/Introduction/PresentationPersonnages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="113" column="95" selection-start-line="113" selection-start-column="54" selection-end-line="113" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Images/PersonnageIcon.gif">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Monstres/Monstres.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="49" column="37" lean-forward="true" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Monstres/ChevalierNoirIntro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-          <folding>
-            <element signature="e#608#609#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Pan/Lieux/Villes/Villes.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -591,20 +511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pan/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="81" column="25" lean-forward="true" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2089#2090#0" expanded="true" />
-            <element signature="e#2121#2122#0" expanded="true" />
-            <element signature="e#2182#2183#0" expanded="true" />
-            <element signature="e#2236#2237#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Personnage/Competences/CompetencesPath.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -626,6 +532,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pan/Lieux/Villes/VillagePecheur/VillagePecheurGrandePlace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="101" selection-start-line="14" selection-start-column="101" selection-end-line="14" selection-end-column="101" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Personnage/Competences/BoutonCompetence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Personnage/AfficheStats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -653,10 +586,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Narration/ReadStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Pan/Introduction/CombatIntro.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6358">
-          <caret line="395" column="38" selection-start-line="395" selection-start-column="7" selection-end-line="395" selection-end-column="38" />
+        <state relative-caret-position="2635">
+          <caret line="166" column="105" selection-start-line="166" selection-start-column="16" selection-end-line="166" selection-end-column="105" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pan/CombatAll/BattelRound.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RunGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="20" selection-start-line="6" selection-start-column="8" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pan/Fenetre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Monstres/Monstres.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="49" column="37" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Monstres/ChevalierNoirIntro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+          <folding>
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -667,47 +655,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Personnage/AfficheStats.java">
+    <entry file="file://$PROJECT_DIR$/src/Pan/Introduction/PresentationPersonnages.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        <state relative-caret-position="-612">
+          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Personnage/Competences/BoutonCompetence.java">
+    <entry file="file://$PROJECT_DIR$/src/Pan/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        <state relative-caret-position="85">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2089#2090#0" expanded="true" />
+            <element signature="e#2121#2122#0" expanded="true" />
+            <element signature="e#2182#2183#0" expanded="true" />
+            <element signature="e#2236#2237#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pan/Lieux/Villes/VillagePecheur/VillagePecheurGrandePlace.java">
+    <entry file="file://$PROJECT_DIR$/src/Pan/Intro.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="14" column="101" selection-start-line="14" selection-start-column="101" selection-end-line="14" selection-end-column="101" />
+        <state relative-caret-position="-170">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pan/CombatAll/BattelRound.java">
+    <entry file="file://$PROJECT_DIR$/src/Pan/PanDialogue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="238" column="8" selection-start-line="238" selection-start-column="8" selection-end-line="238" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pan/Fenetre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        <state relative-caret-position="323">
+          <caret line="88" column="84" lean-forward="true" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="84" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -769,7 +754,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
